@@ -16,10 +16,10 @@ namespace EntityLayer.Concrete
 		public string? City { get; set; }
 		public string? Town { get; set; }
 		public string? Address { get; set; }
-		public double Longitude { get; set; }
-		public double Latitude { get; set; }
-		public double MaxX { get; set; }
-		public double MaxY { get; set; }
-		public double MaxZ { get; set; }
+		public float Longitude { get; set; }
+		public float Latitude { get; set; }
+		public float MaxX { get; set; }
+		public float MaxY { get; set; }
+		public float MaxZ { get; set; }
     }
 }

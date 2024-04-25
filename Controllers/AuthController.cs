@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace YaSaS_UserInterface.Controllers
 {
-	public class LoginController : Controller
+	public class AuthController : Controller
 	{
 		[HttpGet]
 		public IActionResult Login()
